@@ -3,5 +3,6 @@ def cube(num):
 
 
 if __name__ == "__main__":
-    num = int(input("Enter a number: "))
+    # Default value to avoid input() in Jenkins
+    num = 3
     print("Cube is:", cube(num))
